@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS "MARKET_ORDER" (
+   id BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+   financial_instrument_id BIGINT,
+   price BIGINT,
+   volume BIGINT,
+   state INT
+);
